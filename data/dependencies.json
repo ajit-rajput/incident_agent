@@ -1,0 +1,15 @@
+{
+  "checkout-service": {
+    "depends_on": ["payment-service", "inventory-service"],
+    "dependency_health": {
+      "payment-service": "degraded",
+      "inventory-service": "healthy"
+    }
+  },
+  "payment-service": {
+    "depends_on": ["bank-gateway"],
+    "dependency_health": {
+      "bank-gateway": "healthy"
+    }
+  }
+}

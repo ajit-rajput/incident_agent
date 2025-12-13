@@ -1,0 +1,12 @@
+{
+  "checkout-service": {
+    "last_deployment": "2025-03-12T08:55:00Z",
+    "version": "v2.3.1",
+    "changed_components": ["order-handler", "pricing-engine"]
+  },
+  "payment-service": {
+    "last_deployment": "2025-03-10T10:20:00Z",
+    "version": "v1.9.4",
+    "changed_components": []
+  }
+}

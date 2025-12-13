@@ -1,0 +1,14 @@
+{
+  "checkout-service": {
+    "latency_ms": 850,
+    "cpu_percent": 92,
+    "memory_percent": 78,
+    "error_rate_percent": 6.4
+  },
+  "payment-service": {
+    "latency_ms": 120,
+    "cpu_percent": 35,
+    "memory_percent": 41,
+    "error_rate_percent": 0.2
+  }
+}

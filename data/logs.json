@@ -1,0 +1,21 @@
+{
+  "checkout-service": [
+    {
+      "timestamp": "2025-03-12T09:42:11Z",
+      "level": "ERROR",
+      "message": "Timeout while calling payment-service"
+    },
+    {
+      "timestamp": "2025-03-12T09:42:14Z",
+      "level": "ERROR",
+      "message": "Retry attempt failed for order processing"
+    }
+  ],
+  "payment-service": [
+    {
+      "timestamp": "2025-03-12T09:40:01Z",
+      "level": "INFO",
+      "message": "Payment processed successfully"
+    }
+  ]
+}
