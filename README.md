@@ -42,19 +42,7 @@ This mirrors real incident response workflows.
 
 ## Architecture overview
 
-User Goal
-↓
-ReAct Agent Loop
-↓
-Reason (LLM)
-↓
-Action (Tool selection)
-↓
-Observation (Deterministic data)
-↓
-Repeat until sufficient evidence
-↓
-Final conclusion (always guaranteed)
+User Goal --> ReAct Agent Loop --> Reason (LLM) --> Action (Tool selection) --> Observation (Deterministic data) --> Repeat until sufficient evidence --> Final conclusion (always guaranteed)
 
 ## Tech stack
 
