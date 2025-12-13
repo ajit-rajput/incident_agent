@@ -8,7 +8,7 @@ The agent diagnoses service incidents step-by-step, similar to how an SRE would 
 
 ## What this project demonstrates
 
-This project focuses on **agent behavior**, not chatbots.
+This project focuses on **agent behavior**.
 
 Key concepts implemented:
 
